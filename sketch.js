@@ -18,7 +18,7 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	ball = new Ball(200,200,40);
+	ball = new Ball(200,200,20);
 	ground = new Ground(750,height,1500,20);
 	box1 = new Dustbin(1415,690,70,20);
 	box2 = new Dustbin(1450,650,20,70);
